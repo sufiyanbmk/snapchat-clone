@@ -1,0 +1,362 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li{
+    font-weight: bold;
+    list-style:none;
+    color: #434240;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+video{
+    border-radius: 6px;
+}
+button:hover{
+    color: #434240;
+}
+.main{
+    width: 100%;
+    height: 579vh;
+    background-color: #fffc00;
+}
+.navbar{
+    width: 95%;
+    height: 70px;
+    margin-left: 50px;
+    display: flex;
+    background-color: #fffc00;
+    position: sticky;
+    top: 0;
+    
+}
+.left-nav{
+    width: 33%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+   
+}
+.dot{
+    width: 37px;
+    height: 37px;
+    margin-left: 5px;
+}
+.logo{
+    margin-left: 12px;
+    width: 37px;
+    height: 37px;
+}
+.right-nav{
+    width:65%;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    margin-left: 30px;
+}
+.list li:hover{
+    color: black;
+    text-decoration: underline;
+}
+.download-button{
+    width: 180px;
+    height: 42px;
+    border-radius: 19px;
+    font-weight: bolder;
+    border-width: 0;
+    font-size: 19px;
+    background-color: #fff;
+    text-align: center;
+}
+.phone-btn{
+    width: 20px;
+    height: 18px;
+}
+.log-button{
+    width: 230px;
+    height: 46px;
+    border-radius: 22px;
+    background-color: black;
+    text-align:center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+ }
+.log-button a{
+    color: #fff;
+}
+.lap-btn{
+    margin-right: 8px;
+    width: 30px;
+    height:30px;
+}
+.loginto{
+    position: relative;
+    top: -6px;
+}
+/*------------------------------------*/
+.first-div{
+    padding-top:25px;
+    margin-left: 70px;
+    width: 85%;
+    height: 540px;
+    display: flex;
+}
+.first-section{
+    width: 50%;
+    height: 540px;
+    
+}
+.first-section h1{
+    font-size: 60px;
+    margin-left: 70px;
+}
+.first-section h4{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.first-div-para{
+    text-decoration: underline;
+}
+.btn-first{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-1-para{
+    position: relative;
+    bottom: 4px;
+}
+.first-section p{
+    padding: 5px 0px;
+    margin-left: 100px;
+}
+.first-img{
+    width: 805px;
+    height: 432px;
+}
+/*--------------------------------------------*/
+.second-div{
+    width: 85%;
+    height: 690px;
+    margin-left: 150px;
+    display: flex;
+    gap: 50px;
+}
+.fouth-section {
+    font-family: 'Graphik', Helvetica, sans-serif;
+    color: black;
+    font-size: 29px;
+    font-weight: 750;
+    padding-top: 142px;
+}
+.select-1{
+    width: 110px;
+    height: 60px;
+    border-radius: 5px;
+    border-width: 0ch;
+}
+.phn-1{
+    height:58px ;
+    width: 300px;
+    border-radius: 7px;
+    border-width: 0ch;
+    padding-left: 17px;
+    font-size: 17px;
+}
+.btn-2{
+    width: 175px;
+    height: 55px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+/*------------------------------------------------*/
+.third-div{
+    width: 85%;
+    height: 690px;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+}
+.fifth-section{
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 150px;
+    font-size: 31px;
+    font-weight: bolder;
+}
+.select-2{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    border-width: 0ch;
+}
+.btn-3{
+    width: 225px;
+    height: 55px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px
+}
+.sixth-section{
+    padding-left: 33px;
+}
+/*--------------------------------------------------*/
+.fourth-div{
+    width: 80%;
+    height: 690px;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+}
+.eighth-section{
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 150px;
+    font-size: 33px;
+}
+/*-----------------------------------------------------*/
+.fifth-div{
+    width: 80%;
+    height: 690px;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+}
+.ninth-section{
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-5{
+    width: 225px;
+    height: 55px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Graphik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px
+}
+/*-----------------------------------------------------*/
+.sixth-div{
+    padding-bottom: 210px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-last{
+    width: 150px;
+    height: 150px;
+    margin-top: 23px;
+}
+.list-last{
+    padding-top: 80px;
+    margin-right: 100px;
+    padding-left: 20px;
+}
+.list-last li{
+    color: black;
+    font-size: 22px;
+    margin-left: 140px
+}
+.sixth-div-select{
+    margin-top: 90px;
+}
+/*--------------------------------------------------------*/
+.footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    column-gap: 20px;
+    justify-content: center;
+}
+.footer-1 h3{
+    margin-left: 34px;
+}
+.footer-2 h3{
+    margin-left: 41px;
+}
+.footer-3 h3{
+    margin-left: 40px;
+}
+.footer-4 h3{
+    margin-left: 42px;
+}
+
+.list-1 li{
+    padding-top: 11px;
+    font-weight: 400;
+}
+.list-1 li:hover{
+    text-decoration: underline;
+    color: black;
+}
+/*-----------------------------------------------*/
+.footer-last-1{
+    padding-top: 12px;
+    width: 100%;
+    height: 110px;
+    background-color:white;
+}
+.footer-last-1 h3{
+    margin-left: 357px;
+    margin-top: 17px;
+}
+.lang{
+    margin-left: 356px;
+    margin-top: -5px;
+    width: 180px;
+    border-width: 0ch;
+    height: 39px;
+    background-color: #f7f9f8;
+}
+.last-part{
+    padding-top: 12px;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+.list-2{
+    display: flex;
+}
+.last-part li{
+    color: #fff;
+    padding-left: 273px;
+}
